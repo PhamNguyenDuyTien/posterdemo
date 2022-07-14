@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thực Hành Giao Diện</title>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.2.0/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div id="header_top_bar" class="header_top_bar">
+            <div class="container ">
+                <div class="row">
+                    <div class="col">
+                        <div class="header_top_bar_left">
+                            <ul>
+                                <li><a href="" title="">Blog</a></li>
+                                <li><a href="" title="">Diễn Đàn</a></li>
+                                <li><a href="" title="">Nhiệt Độ</a></li>
+                                <li><a href="" title="">Liên Hệ</a></li>
+                                <li><a href="" title="">Dịch Vụ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="header_top_bar_right">
+                            <ul>
+                                <li><a href="" title=""><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="" title=""><i class="fab fa-youtube-square"></i></a></li>
+                                <li><a href="" title=""><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="" title=""><i class="fab fa-twitter-square"></i></a></li>
+                                <li><a href="" title=""><i class="fas fa-user-circle"></i> Login</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header_content">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-2">
+                        <div class="logo">
+                            <div class="image">
+                                <a href="" title="">
+                                    <img src="images/logo.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-7" id="menu">
+                        <nav class="menu">
+                            <ul>
+                                <li class="active"><a href="" title="">Trang Chủ</a></li>
+                                <li class="dropdown">
+                                    <a href="" title="">Sản Phẩm</a> 
+                                    <i id="icon-sub-menu" class="d-pc-none d-mb-show  fas fa-caret-down"></i>
+                                    <ul class="sub-menu">
+                                        <li><a href="" title="">Sản Phẩm 1</a></li>
+                                        <li><a href="" title="">Sản Phẩm 2</a>
+                                            <ul>
+                                                <li><a href="" title="">Sản Phẩm 2 - 1</a></li>
+                                                <li><a href="" title="">Sản Phẩm 2 - 2</a></li>
+                                                <li><a href="" title="">Sản Phẩm 2 - 3</a></li>
+                                                <li><a href="" title="">Sản Phẩm 2 - 4</a></li>
+                                                <li><a href="" title="">Sản Phẩm 2 - 5</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="" title="">Sản Phẩm 3</a></li>
+                                        <li><a href="" title="">Sản Phẩm 4</a>
+                                            <ul>
+                                                <li><a href="" title="">Sản Phẩm 4 - 1</a></li>
+                                                <li><a href="" title="">Sản Phẩm 4 - 2</a></li>
+                                                <li><a href="" title="">Sản Phẩm 4 - 3</a></li>
+                                                <li><a href="" title="">Sản Phẩm 4 - 4</a></li>
+                                                <li><a href="" title="">Sản Phẩm 4 - 5</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="" title="">Sản Phẩm 5</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="" title="">Dịch Vụ</a></li>
+                                <li><a href="" title="">Giới Thiệu</a></li>
+                                <li><a href="" title="">Liên Hệ</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="" id="search">
+                        <div class="form-search">
+                            <button type="button" id="btnSearchClick"><i class="far fa-search"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="d-pc-none d-mb-show " id="icon_menu">
+                        <div class="icon-bar" id="toggleMenu"><i class="fas fa-bars"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    
+    <section class="home_post_view">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="image">
+                        <img src="images/demo1.jpg">
+                    </div>
+                    <div class="card-content card-1">
+                        <div class="content">
+                            <div class="box-position text-white">
+                                <div class="info">
+                                    <span class="menu bg-colorF"><a href="" title="">Danh Mục</a></span>
+                                    <span><i class="fas fa-eye"></i> 123k</span>
+                                </div>
+                                <h2><a href="" title="">Đây là một tiêu đề của một bài viết nào đó</a></h2>
+                                <p class="auth-hour"><span class="author">Jhon</span> | <span class="hour">2 hours ago</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="image">
+                        <img src="images/demo2.jpg">
+                    </div>
+                    <div class="card-content card-2">
+                        <div class="content">
+                            <div class="box-position  text-white">
+                                <div class="info">
+                                    <span class="menu bg-colorE"><a href="" title="">Danh Mục</a></span>
+                                    <span><i class="fas fa-eye"></i> 123k</span>
+                                </div>
+                                <h2><a href="" title="">Đây là một tiêu đề của một bài viết nào đó</a></h2>
+                                <p class="auth-hour"><span class="author">Jhon</span> | <span class="hour">2 hours ago</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="image">
+                        <img src="images/demo3.jpg">
+                    </div>
+                    <div class="card-content card-3">
+                        <div class="content">
+                            <div class="box-position  text-white">
+                                <div class="info">
+                                    <span class="menu bg-colorA"><a href="" title="">Danh Mục</a></span>
+                                    <span><i class="fas fa-eye"></i> 123k</span>
+                                </div>
+                                <h2><a href="" title="">Đây là một tiêu đề của một bài viết nào đó</a></h2>
+                                <p class="auth-hour"><span class="author">Jhon</span> | <span class="hour">2 hours ago</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-7">
+                    <main>
+                        <section class="box-home box-1">
+                            <div class="box-title-home">
+                                <div class="title">
+                                    <h4>Nước Hoa Nam</h4>
+                                </div>
+                                <div class="sub-title">
+                                    <ul>
+                                        <li><a href="" title="">Nước Hoa Nam 1</a></li>
+                                        <li><a href="" title="">Nước Hoa Nam 1</a></li>
+                                        <li><a href="" title="">Nước Hoa Nam 1</a></li>
+                                        <li><a href="" title="">Nước Hoa Nam 1</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                <div class="image">
+                                    <a href="" title="">
+                                        <img src="images/demo1.jpg">
+                                    </a>
+                                </div>
+                                <div class="box-info">
+                                    <div class="box-position">
+                                        <div class="info">
+                                            <span class="menu bg-colorF"><a href="" title="">Danh Mục</a></span>
+                                            <span><i class="fas fa-eye"></i> 123k</span>
+                                        </div>
+                                        <h2><a href="" title="">Đây là một tiêu đề của một bài viết nào đó</a></h2>
+                                        <p class="auth-hour"><span class="author">Jhon</span> | <span class="hour">2 hours ago</span></p>
+                                        <p  class="description">Đây là một tiêu đề của một bài viết nào đó Đây là một tiêu đề của một bài viết nào đó Đây là một tiêu đề của một bài viết nào đó Đây là một tiêu đề của một bài viết nào đó Đây là một tiêu đề của một bài viết nào đó</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="content-sub row">
+                                <div class="col">
+                                    <div class="content">
+                                        <div class="image">
+                                            <a href="" title="">
+                                                <img src="images/demo3.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="box-info">
+                                            <div class="box-position">
+                                                <div class="info">
+                                                    <span class="menu bg-colorF"><a href="" title="">Danh Mục</a></span>
+                                                    <span><i class="fas fa-eye"></i> 123k</span>
+                                                </div>
+                                                <h2><a href="" title="">Đây là một tiêu đề của một bài viết nào đó</a></h2>
+                                                <p class="auth-hour"><span class="author">Jhon</span> | <span class="hour">2 hours ago</span></p>
+                                                <p  class="description">Đây là một tiêu đề của một bài viết nào đó Đây là một tiêu đề của một bài viết nào đó Đây là một tiêu đề của một bài viết nào đó Đây là một tiêu đề của một bài viết nào đó Đây là một tiêu đề của một bài viết nào đó</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="content">
+                                        <div class="image">
+                                            <a href="" title="">
+                                                <img src="images/demo2.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="box-info">
+                                            <div class="box-position">
+                                                <div class="info">
+                                                    <span class="menu bg-colorF"><a href="" title="">Danh Mục</a></span>
+                                                    <span><i class="fas fa-eye"></i> 123k</span>
+                                                </div>
+                                                <h2><a href="" title="">Đây là một tiêu đề của một bài viết nào đó</a></h2>
+                                                <p class="auth-hour"><span class="author">Jhon</span> | <span class="hour">2 hours ago</span></p>
+                                                <p  class="description">Đây là một tiêu đề của một bài viết nào đó Đây là một tiêu đề của một bài viết nào đó Đây là một tiêu đề của một bài viết nào đó Đây là một tiêu đề của một bài viết nào đó Đây là một tiêu đề của một bài viết nào đó</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+
+                        <section class="box-home box-2">
+                            <div class="box-title-home">
+                                <div class="title">
+                                    <h4>Nước Hoa Nam</h4>
+                                </div>
+                                <div class="sub-title">
+                                    <ul>
+                                        <li><a href="" title="">Nước Hoa Nam 1</a></li>
+                                        <li><a href="" title="">Nước Hoa Nam 1</a></li>
+                                        <li><a href="" title="">Nước Hoa Nam 1</a></li>
+                                        <li><a href="" title="">Nước Hoa Nam 1</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                <div class="image">
+                                    <a href="" title="">
+                                        <img src="images/demo1.jpg">
+                                    </a>
+                                </div>
+                                <div class="box-info">
+                                    <div class="box-position">
+                                        <div class="info">
+                                            <span class="menu bg-colorF"><a href="" title="">Danh Mục</a></span>
+                                            <span><i class="fas fa-eye"></i> 123k</span>
+                                        </div>
+                                        <h2><a href="" title="">Đây là một tiêu đề của một bài viết nào đó</a></h2>
+                                        <p class="auth-hour"><span class="author">Jhon</span> | <span class="hour">2 hours ago</span></p>
+                                        <p  class="description">Đây là một tiêu đề của một bài viết nào đó Đây là một tiêu đề của một bài viết nào đó Đây là một tiêu đề của một bài viết nào đó Đây là một tiêu đề của một bài viết nào đó Đây là một tiêu đề của một bài viết nào đó</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="list-item-home">
+                                <div class="row items">
+                                    <div class="col-5 item">
+                                        <div class="image">
+                                            <a href="" title="">
+                                                <img src="images/demo1.jpg" alt=""> 
+                                            </a>                                         
+                                        </div>
+                                        <div class="info-post">
+                                            <div class="ml-15">
+                                                <h3><a href="" title="">Tiêu đề bài viết demo template</a></h3>
+                                                <p class="auth-hour"><span class="author">Jhon</span> | <span class="hour">2 hours ago</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-5 item">
+                                        <div class="image">
+                                            <a href="" title="">
+                                                <img src="images/demo1.jpg" alt=""> 
+                                            </a>                                         
+                                        </div>
+                                        <div class="info-post">
+                                            <div class="ml-15">
+                                                <h3><a href="" title="">Tiêu đề bài viết demo template</a></h3>
+                                                <p class="auth-hour"><span class="author">Jhon</span> | <span class="hour">2 hours ago</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-5 item">
+                                        <div class="image">
+                                            <a href="" title="">
+                                                <img src="images/demo1.jpg" alt=""> 
+                                            </a>                                         
+                                        </div>
+                                        <div class="info-post">
+                                            <div class="ml-15">
+                                                <h3><a href="" title="">Tiêu đề bài viết demo template</a></h3>
+                                                <p class="auth-hour"><span class="author">Jhon</span> | <span class="hour">2 hours ago</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-5 item">
+                                        <div class="image">
+                                            <a href="" title="">
+                                                <img src="images/demo1.jpg" alt=""> 
+                                            </a>                                         
+                                        </div>
+                                        <div class="info-post">
+                                            <div class="ml-15">
+                                                <h3><a href="" title="">Tiêu đề bài viết demo template</a></h3>
+                                                <p class="auth-hour"><span class="author">Jhon</span> | <span class="hour">2 hours ago</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-5 item">
+                                        <div class="image">
+                                            <a href="" title="">
+                                                <img src="images/demo1.jpg" alt=""> 
+                                            </a>                                         
+                                        </div>
+                                        <div class="info-post">
+                                            <div class="ml-15">
+                                                <h3><a href="" title="">Tiêu đề bài viết demo template</a></h3>
+                                                <p class="auth-hour"><span class="author">Jhon</span> | <span class="hour">2 hours ago</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-5 item">
+                                        <div class="image">
+                                            <a href="" title="">
+                                                <img src="images/demo1.jpg" alt=""> 
+                                            </a>                                         
+                                        </div>
+                                        <div class="info-post">
+                                            <div class="ml-15">
+                                                <h3><a href="" title="">Tiêu đề bài viết demo template</a></h3>
+                                                <p class="auth-hour"><span class="author">Jhon</span> | <span class="hour">2 hours ago</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                    </main>
+                </div>
+                <div class="col-3">
+                    <aside>
+                        <section class="share">
+                            <div class="items">
+                                <div class="item">
+                                    <div class="card">
+                                        <div class="icon">
+                                            <i class="fab fa-facebook"></i>
+                                        </div>
+                                        <div class="number">
+                                            <span class="parent">894.6k</span>
+                                            <span class="child">Fans</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card">
+                                        <div class="icon">
+                                            <i class="fab fa-facebook"></i>
+                                        </div>
+                                        <div class="number">
+                                            <span class="parent">894.6k</span>
+                                            <span class="child">Fans</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card">
+                                        <div class="icon">
+                                            <i class="fab fa-facebook"></i>
+                                        </div>
+                                        <div class="number">
+                                            <span class="parent">894.6k</span>
+                                            <span class="child">Fans</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card">
+                                        <div class="icon">
+                                            <i class="fab fa-facebook"></i>
+                                        </div>
+                                        <div class="number">
+                                            <span class="parent">894.6k</span>
+                                            <span class="child">Fans</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card">
+                                        <div class="icon">
+                                            <i class="fab fa-facebook"></i>
+                                        </div>
+                                        <div class="number">
+                                            <span class="parent">894.6k</span>
+                                            <span class="child">Fans</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card">
+                                        <div class="icon">
+                                            <i class="fab fa-facebook"></i>
+                                        </div>
+                                        <div class="number">
+                                            <span class="parent">894.6k</span>
+                                            <span class="child">Fans</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal_search">
+        <div class="card">
+            <div class="content">
+                <form action="" method="get">
+                    <input type="text" name="key">
+                    <button type="submit">Tìm kiếm</button>
+                    <button type="button" id="closeFormSearch">Hủy</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
